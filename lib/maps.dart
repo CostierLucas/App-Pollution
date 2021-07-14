@@ -42,7 +42,7 @@ class _Maps extends State<Maps> {
   Future getAir(String city, String lat, String long) async {
     Map aqi;
     final response = await http.get(Uri.parse(
-        'http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${long}&appid=581cfbbf4f2b1beea521611c13584ba1'));
+        'http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${long}&appid=${Your api key}'));
     if (response.statusCode == 200) {
       aqi = jsonDecode(response.body);
       Navigator.push(
