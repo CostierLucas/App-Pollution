@@ -47,7 +47,7 @@ class Infos extends StatelessWidget {
             Text("Ozone = " + list["list"][0]["components"]["o3"].toString()),
             Text(
                 "Amoniac = " + list["list"][0]["components"]["nh3"].toString()),
-            Text("Particule en suspension = " +
+            Text("Particules en suspension = " +
                 list["list"][0]["components"]["pm10"].toString()),
           ],
         ),

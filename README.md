@@ -1,6 +1,6 @@
-# eco
+# App pollution
 
-A new Flutter project.
+![Alt text](./assets/app.jpg)
 
 ## Getting Started
 
